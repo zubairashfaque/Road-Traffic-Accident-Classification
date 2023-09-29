@@ -11,75 +11,40 @@
 </p>
 <br>
 
-## Table of Contents
-1. [Installation](#Installation)
-2. [Introduction](#introduction)
-
-   2.1 [Project Description](#discription)
-
-   2.2 [Project Motivation](#motivation)
-
-3. [Project Overview](#project_overview)
-
-   3.1 [Overview RTA Dataset](#datasetoverview)
-   
-   3.2 [RTA Problem statement](#problemstatement)
-
-4. [Project Overview](#project_overview)
-
-5. [Project Description](#discription)
-
-6. [Project Motivation](#motivation)
-
-7. [Overview Road Traffic Accident Dataset](#overviewdataset)
-4. [Road Traffic Accident Classification - EDA](#EDA)
-4. [Usage](#usage)
-4. [Scripts Description](#description)
-4. [Results](#Results)
-4. [Licensing, Authors, Acknowledgements](#licensing)
-
-## Table of Contents
 1. [Introduction](#introduction)
-   
-   1.1 [Project Description](#discription)
-
-   1.2 [Project Motivation](#motivation)
+   - [Project Description](#description)
+   - [Project Motivation](#motivation)
 
 2. [Project Overview](#project_overview)
+   - [Dataset Overview](#datasetoverview)
+   - [Problem Statement](#problemstatement)
 
-   2.1 [Overview Dataset](#datasetoverview)
+3. [Features](#features)
 
-   2.2 [Dataset Problem statement](#problemstatement)
+4. [Project Directory Structure](#directorystructure)
 
-3. [Features](#Features)
+5. [Steps](#steps)
+   - [Data Collection and Preprocessing](#data-preprocessing)
+   - [Calculating Word Counts and Likelihoods](#data-preprocessing)
+   - [Train-Test Split and Model Training](#model-development)
+   - [Running the App](#evaluation-and-metrics)
+   - [Interact with the App](#evaluation-and-metrics)
 
-4. [Project Directory Structure](#DirectoryStructure)
+6. [Requirements](#requirements)
 
-5. [Steps](#Steps)
-
-   5.1 [Data Collection and Preprocessing](#exploratory-data-analysis)
-   
-   5.2 [Calculating Word Counts and Likelihoods](#data-preprocessing)
-
-   5.3 [Train-Test Split and Model Training](#model-development)
-
-   5.4 [Running the App](#evaluation-and-metrics)
-
-   5.5 [Train-Test Split and Model Training](#model-development)
-
-   5.6 [Interact with the App](#evaluation-and-metrics)
-
-6. [Requirements](#Requirements)
 7. [Usage](#usage)
-8. [Screenshots](#Screenshots)
-9. [EDA Notebook Structure](#EDA)
-   
-   9.1 [Running the Notebook](#exploratory-data-analysis1)
 
-   9.2 [Results and Visualizations](#exploratory-data-analysis2)
-10. [License](#License)
-11. [Acknowledgements](#Acknowledgements)
-12. [Contact Information](#Contact)
+8. [Screenshots](#screenshots)
+
+9. [EDA Notebook Structure](#eda)
+   - [Running the Notebook](#exploratory-data-analysis1)
+   - [Results and Visualizations](#exploratory-data-analysis2)
+
+10. [License](#license)
+
+11. [Acknowledgements](#acknowledgements)
+
+12. [Contact Information](#contact)
 # test
 - Purpose of the project
 - Project goals and objectives

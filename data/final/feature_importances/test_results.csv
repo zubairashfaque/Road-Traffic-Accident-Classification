@@ -1,0 +1,5 @@
+Filename,Best Model Hyperparameters,F1 Weighted Score
+oversampler_svm_0_test.csv,"OrderedDict([('bootstrap', False), ('max_depth', None), ('max_features', 'sqrt'), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 1200)])",0.7871079595323014
+under_oversamp_smtomek_0_test.csv,"OrderedDict([('bootstrap', False), ('max_depth', None), ('max_features', 'log2'), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 1200)])",0.78803390611969
+oversampler_adasyn_0_test.csv,"OrderedDict([('bootstrap', False), ('max_depth', None), ('max_features', 'sqrt'), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 1200)])",0.7914600046817549
+oversampler_smote_0_test.csv,"OrderedDict([('bootstrap', False), ('max_depth', None), ('max_features', 'log2'), ('min_samples_leaf', 1), ('min_samples_split', 4), ('n_estimators', 1038)])",0.7878904988162219

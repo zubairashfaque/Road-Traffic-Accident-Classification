@@ -1,0 +1,9 @@
+Filename,Model,F1 Weighted Score
+oversampler_svm_0_train.csv,Decision Tree,0.7928728839588404
+oversampler_svm_0_train.csv,Random Forest,0.8004130117062276
+oversampler_adasyn_0_train.csv,Decision Tree,0.7934771370156112
+oversampler_adasyn_0_train.csv,Random Forest,0.8237316562720423
+under_oversamp_smtomek_0_train.csv,Decision Tree,0.7752773225181134
+under_oversamp_smtomek_0_train.csv,Random Forest,0.8253042708925064
+oversampler_smote_0_train.csv,Decision Tree,0.7704021972362112
+oversampler_smote_0_train.csv,Random Forest,0.8265916851890539

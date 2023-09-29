@@ -1,0 +1,5 @@
+Filename,Model_name,Best Model Hyperparameters,Best Model Score (F1 Weighted)
+oversampler_border2_0_train.csv,ExtraTreesClassifier,"OrderedDict([('bootstrap', False), ('max_depth', 30), ('max_features', 'log2'), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 1200)])",0.9285141696692254
+under_oversamp_smtomek_0_train.csv,ExtraTreesClassifier,"OrderedDict([('bootstrap', False), ('max_depth', 25), ('max_features', 'sqrt'), ('min_samples_leaf', 1), ('min_samples_split', 3), ('n_estimators', 207)])",0.9344884436496278
+oversampler_smote_0_train.csv,ExtraTreesClassifier,"OrderedDict([('bootstrap', False), ('max_depth', 25), ('max_features', 'log2'), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 1200)])",0.9333436847204482
+oversampler_adasyn_0_train.csv,ExtraTreesClassifier,"OrderedDict([('bootstrap', False), ('max_depth', None), ('max_features', 'log2'), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 1200)])",0.8971755039970224

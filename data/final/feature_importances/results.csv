@@ -1,0 +1,37 @@
+Filename,Model,F1 Weighted Score
+oversampler_border2_0_train.csv,Decision Tree,0.7491813648732434
+oversampler_border2_0_train.csv,Random Forest,0.8004721670649045
+oversampler_border2_0_train.csv,GBM,0.7819698456246653
+oversampler_border2_0_train.csv,AdaBoost,0.7463638973459753
+oversampler_border2_0_train.csv,GTB,0.7819698456246653
+oversampler_border2_0_train.csv,Extra Trees,0.8283704490417948
+oversampler_border2_0_train.csv,XGBoost,0.7850120067657271
+oversampler_border2_0_train.csv,LightGBM,0.8094456700665061
+oversampler_border2_0_train.csv,CatBoost,0.8158508483282354
+under_oversamp_smtomek_0_train.csv,Decision Tree,0.775833648533909
+under_oversamp_smtomek_0_train.csv,Random Forest,0.8325088673680854
+under_oversamp_smtomek_0_train.csv,GBM,0.7823357263079513
+under_oversamp_smtomek_0_train.csv,AdaBoost,0.7445925348722835
+under_oversamp_smtomek_0_train.csv,GTB,0.7823357263079513
+under_oversamp_smtomek_0_train.csv,Extra Trees,0.8508403155208017
+under_oversamp_smtomek_0_train.csv,XGBoost,0.7881191122608918
+under_oversamp_smtomek_0_train.csv,LightGBM,0.8129376270485984
+under_oversamp_smtomek_0_train.csv,CatBoost,0.8123822360226551
+oversampler_smote_0_train.csv,Decision Tree,0.7765410996864799
+oversampler_smote_0_train.csv,Random Forest,0.8205012439958007
+oversampler_smote_0_train.csv,GBM,0.783006419781615
+oversampler_smote_0_train.csv,AdaBoost,0.7487204812310382
+oversampler_smote_0_train.csv,GTB,0.783006419781615
+oversampler_smote_0_train.csv,Extra Trees,0.8515299010683068
+oversampler_smote_0_train.csv,XGBoost,0.7985463416777228
+oversampler_smote_0_train.csv,LightGBM,0.8112129462396052
+oversampler_smote_0_train.csv,CatBoost,0.8130704292563496
+oversampler_adasyn_0_train.csv,Decision Tree,0.786684320705827
+oversampler_adasyn_0_train.csv,Random Forest,0.8234898739208539
+oversampler_adasyn_0_train.csv,GBM,0.7803064244474704
+oversampler_adasyn_0_train.csv,AdaBoost,0.7516318032170316
+oversampler_adasyn_0_train.csv,GTB,0.7803064244474704
+oversampler_adasyn_0_train.csv,Extra Trees,0.8594079459345488
+oversampler_adasyn_0_train.csv,XGBoost,0.7943890186966545
+oversampler_adasyn_0_train.csv,LightGBM,0.8131486101519685
+oversampler_adasyn_0_train.csv,CatBoost,0.818069220960169

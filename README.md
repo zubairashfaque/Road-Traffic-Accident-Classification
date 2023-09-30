@@ -410,6 +410,10 @@ By choosing either of these methods, you can meticulously assess the performance
 ```bash
 make setup
 ```
+### Overview of the ***get_dataset.py*** Script
+```bash
+python src/get_dataset.py
+```
 
 This script automates the process of downloading a dataset from Kaggle, managing files, and making specific adjustments to file names. Below is a detailed breakdown of the script's functionalities:
 

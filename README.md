@@ -1,5 +1,8 @@
-## Machine Learning Solution Predicting Road Accident Severity [[view code]](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/painters-identification/notebooks/capstone-models-final-model-building.ipynb) 
-![image title](https://img.shields.io/badge/Python-v3.10-green.svg) ![image title](https://img.shields.io/badge/MLflow-v2.4.1-blue.svg) ![Image title](https://img.shields.io/badge/TensorFlow-v1.7.0-orange.svg)
+## Machine Learning Solution Predicting Road Accident Severity
+![Python Version](https://img.shields.io/badge/Python-v3.x-green.svg)
+![Streamlit Version](https://img.shields.io/badge/Streamlit-v1.23.0-red.svg)
+![Imbalanced-Learn Version](https://img.shields.io/badge/Imbalanced--Learn-v0.11.0-orange.svg)
+![Pandas Version](https://img.shields.io/badge/Pandas-v2.0-blue.svg)
 
 **The code is available [here](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/painters-identification/notebooks/capstone-models-final-model-building.ipynb) or by clicking on the [view code] link above.**
 

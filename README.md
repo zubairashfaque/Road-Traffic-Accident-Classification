@@ -171,7 +171,7 @@ I have used Infographics which is a powerful tool to explain the EDA in a visual
 ## Usage <a name="Usage"></a>
 #### 1. Clone this repository:
 ```bash
-git clone https://github.com/zubairashfaque/Text-Sentiment-Classification-App.git
+git clone https://github.com/zubairashfaque/Road-Traffic-Accident-Classification
 ```
 #### 2. Run the following command to create a virtual environment named "RTA" (you can replace "RTA" with any name you prefer):
 ```bash
@@ -406,9 +406,9 @@ make Eval_hyper_parametr_tuning
 
 By choosing either of these methods, you can meticulously assess the performance of the tuned ExtraTreesClassifier for more effective machine learning model training.
 
-### Overview of the ***get_dataset.py*** Script
+#### 18.   To run the whole pipeline use the following command:
 ```bash
-python src/get_dataset.py
+make setup
 ```
 
 This script automates the process of downloading a dataset from Kaggle, managing files, and making specific adjustments to file names. Below is a detailed breakdown of the script's functionalities:

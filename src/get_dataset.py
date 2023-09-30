@@ -3,8 +3,8 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 import shutil
 
 # Set your Kaggle API credentials (replace with your own values)
-os.environ["KAGGLE_USERNAME"] = "zubairashfaque"
-os.environ["KAGGLE_KEY"] = "70242dbf53406d89d255c427a4f6b58f"
+os.environ["KAGGLE_USERNAME"] = "usrname"
+os.environ["KAGGLE_KEY"] = "kaggle_key"
 
 # Specify the dataset you want to download (replace with the dataset you need)
 dataset_name = "saurabhshahane/road-traffic-accidents"

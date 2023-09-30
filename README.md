@@ -4,7 +4,6 @@
 ![Imbalanced-Learn Version](https://img.shields.io/badge/Imbalanced--Learn-v0.11.0-orange.svg)
 ![Pandas Version](https://img.shields.io/badge/Pandas-v2.0-blue.svg)
 
-**The code is available [here](http://nbviewer.jupyter.org/github/marcotav/deep-learning/blob/master/painters-identification/notebooks/capstone-models-final-model-building.ipynb) or by clicking on the [view code] link above.**
 
 <br>
 <br>
@@ -48,15 +47,10 @@
 11. [Acknowledgements](#acknowledgements)
 
 12. [Contact Information](#contact)
-# test
-- Purpose of the project
-- Project goals and objectives
-- Brief overview of the project's functionalit
 
-Goal • Challenges and Applications • Overview and Data • Preprocessing the data • Problems with small datasets • Using bottleneck features of Inception V3 • Creating and training using the InceptionV3 model • Training the fully-connected network • Plotting the accuracy and loss histories • Conclusions • To Dos
 
 ## Installation <a name="Installation"></a>
-The code requires Python versions of 3.*, general libraries and packages used in this project:
+The code requires Python versions of 3.*, following libraries and packages used in this project:
 
 * **pandas**: A versatile and powerful data manipulation library that is instrumental in data analysis and preprocessing tasks.
 

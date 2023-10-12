@@ -25,14 +25,8 @@
 6. [Requirements](#requirements)
 7. [Usage](#usage)
 8. [Overview of Scripts](#scripts)
-10. [EDA Notebook Structure](#eda)
-   - [Running the Notebook](#exploratory-data-analysis1)
-   - [Results and Visualizations](#exploratory-data-analysis2)
-
 11. [License](#license)
-
 12. [Acknowledgements](#acknowledgements)
-
 13. [Contact Information](#contact)
 
 
@@ -799,3 +793,16 @@ In summary, the `train_and_evaluate_model.py` script is your conductor for a sym
 <p align="center"> 
 <img src="./notebooks/infographics/final.jpg" alt="InfiniteGraph Logo" width="520" align=”center”>
 </p>
+## License <a name="license"></a>
+
+This project is licensed under the MIT License.
+
+## Acknowledgements <a name="acknowledgements"></a>
+
+- The sentiment analysis algorithm is based on the Deep Learning approach.
+- Streamlit is used for creating the user interface.
+- NLTK is used for text preprocessing.
+
+## Contact Information <a name="contact-information"></a>
+
+For questions, feedback, or discussions related to this project, you can contact me at mianashfaque@gmail.com.

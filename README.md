@@ -21,7 +21,7 @@
    - [Problem Statement](#problemstatement)
 3. [Project Plan](#projetc_plan)
 4. [RTA Classification - EDA](#eda)
-5. [Project Directory Structure](#directorystructure)
+5. [Project Directory Structure](#app)
 6. [Requirements](#requirements)
 7. [Usage](#usage)
 8. [Overview of Scripts](#scripts)
@@ -392,6 +392,16 @@ By choosing either of these methods, you can meticulously assess the performance
 ```bash
 make setup
 ```
+## Accident Severity Prediction App <a name="app"></a>
+
+We've developed an interactive web application for predicting accident severity. This app allows users to input various parameters related to a road accident and receive predictions on the accident's severity. 
+
+To access and use the [Accident Severity Prediction App](https://rtadeployment-za.streamlit.app/), please visit [here](https://rtadeployment-za.streamlit.app/).
+
+<p align="center"> 
+<img src="./notebooks/infographics/app.jpg" alt="InfiniteGraph Logo" width="520" align=”center”>
+</p>
+
 ## Overview of the SCRIPTS <a name="scripts"></a>
 
 ### Overview of the ***get_dataset.py*** Script

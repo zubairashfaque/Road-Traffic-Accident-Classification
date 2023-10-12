@@ -22,19 +22,9 @@
 3. [Project Plan](#projetc_plan)
 4. [RTA Classification - EDA](#eda)
 5. [Project Directory Structure](#directorystructure)
-6. [Steps](#steps)
-   - [Data Collection and Preprocessing](#data-preprocessing)
-   - [Calculating Word Counts and Likelihoods](#data-preprocessing)
-   - [Train-Test Split and Model Training](#model-development)
-   - [Running the App](#evaluation-and-metrics)
-   - [Interact with the App](#evaluation-and-metrics)
-
-7. [Requirements](#requirements)
-
-8. [Usage](#usage)
-
-9. [Screenshots](#screenshots)
-
+6. [Requirements](#requirements)
+7. [Usage](#usage)
+8. [Overview of Scripts](#scripts)
 10. [EDA Notebook Structure](#eda)
    - [Running the Notebook](#exploratory-data-analysis1)
    - [Results and Visualizations](#exploratory-data-analysis2)
@@ -46,34 +36,6 @@
 13. [Contact Information](#contact)
 
 
-## Installation <a name="Installation"></a>
-The code requires Python versions of 3.*, following libraries and packages used in this project:
-
-* **pandas**: A versatile and powerful data manipulation library that is instrumental in data analysis and preprocessing tasks.
-
-* **streamlit**: A user-friendly Python library that simplifies the creation of web applications and interactive dashboards, making it easy to showcase project results.
-
-* **plotly**: A library used to create interactive and visually appealing plots and charts, enhancing data visualization capabilities.
-
-* **scikit-learn**: A comprehensive and widely-used machine learning library that provides tools for building, training, and evaluating machine learning models.
-
-* **kaggle**: The Kaggle API, which allows access to datasets and competitions hosted on Kaggle, facilitating data retrieval and participation in machine learning challenges.
-
-* **imblearn**: A library specifically designed for addressing imbalanced datasets by providing techniques for resampling and handling class imbalances.
-
-* **pyyaml**: A Python library used for working with YAML configuration files, often utilized to manage project configurations.
-
-* **lightgbm**: A gradient boosting framework known for its efficiency and performance, frequently used in machine learning tasks.
-
-* **catboost**: A gradient boosting library with a strong focus on handling categorical features effectively, contributing to improved model accuracy.
-
-* **xgboost**: An optimized gradient boosting library that is renowned for its speed and ability to achieve high performance in machine learning tasks.
-
-* **feature_engine**: A library that specializes in feature engineering and data preprocessing, aiding in data transformation and preparation for model training.
-
-* **scikit-optimize**: A library used for hyperparameter tuning and Bayesian optimization, assisting in finding optimal model configurations.
-
-* **shap**: A library that plays a crucial role in explaining machine learning models and interpreting their predictions, enhancing model transparency and understanding.
 
 ## Introduction <a name="introduction"></a>
 ### Project Description <a name="description"></a>
@@ -165,7 +127,36 @@ I have used Infographics which is a powerful tool to explain the EDA in a visual
 
 
 ```
-## Usage <a name="Usage"></a>
+## Installation <a name="requirements"></a>
+The code requires Python versions of 3.*, following libraries and packages used in this project:
+
+* **pandas**: A versatile and powerful data manipulation library that is instrumental in data analysis and preprocessing tasks.
+
+* **streamlit**: A user-friendly Python library that simplifies the creation of web applications and interactive dashboards, making it easy to showcase project results.
+
+* **plotly**: A library used to create interactive and visually appealing plots and charts, enhancing data visualization capabilities.
+
+* **scikit-learn**: A comprehensive and widely-used machine learning library that provides tools for building, training, and evaluating machine learning models.
+
+* **kaggle**: The Kaggle API, which allows access to datasets and competitions hosted on Kaggle, facilitating data retrieval and participation in machine learning challenges.
+
+* **imblearn**: A library specifically designed for addressing imbalanced datasets by providing techniques for resampling and handling class imbalances.
+
+* **pyyaml**: A Python library used for working with YAML configuration files, often utilized to manage project configurations.
+
+* **lightgbm**: A gradient boosting framework known for its efficiency and performance, frequently used in machine learning tasks.
+
+* **catboost**: A gradient boosting library with a strong focus on handling categorical features effectively, contributing to improved model accuracy.
+
+* **xgboost**: An optimized gradient boosting library that is renowned for its speed and ability to achieve high performance in machine learning tasks.
+
+* **feature_engine**: A library that specializes in feature engineering and data preprocessing, aiding in data transformation and preparation for model training.
+
+* **scikit-optimize**: A library used for hyperparameter tuning and Bayesian optimization, assisting in finding optimal model configurations.
+
+* **shap**: A library that plays a crucial role in explaining machine learning models and interpreting their predictions, enhancing model transparency and understanding.
+
+## Usage <a name="usage"></a>
 #### 1. Clone this repository:
 ```bash
 git clone https://github.com/zubairashfaque/Road-Traffic-Accident-Classification
@@ -437,6 +428,8 @@ This script automates the process of downloading a dataset from Kaggle, managing
 11. **File Renaming:** In case "RTA Dataset.csv" is present in the data directory, the script renames it to "RTA_Dataset.csv" using the `shutil.move` function. It then reports that the renaming process has been completed.
 
 In essence, this script streamlines the process of dataset acquisition, organization, and file management tasks, enhancing efficiency when working with Kaggle datasets.
+
+## Overview of the SCRIPTS <a name="scripts"></a>
 
 ### Overview of the ***preprocessing.py*** Script
 ```bash

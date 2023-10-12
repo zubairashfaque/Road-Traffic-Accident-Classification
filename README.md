@@ -19,11 +19,9 @@
 2. [Project Overview](#project_overview)
    - [Dataset Overview](#datasetoverview)
    - [Problem Statement](#problemstatement)
-
 3. [Project Plan](#projetc_plan)
-4. [RTA Classification - EDA](#EDA)
+4. [RTA Classification - EDA](#eda)
 5. [Project Directory Structure](#directorystructure)
-
 6. [Steps](#steps)
    - [Data Collection and Preprocessing](#data-preprocessing)
    - [Calculating Word Counts and Likelihoods](#data-preprocessing)
@@ -109,7 +107,7 @@ Upon completing these steps, we will identify the best-performing model and proc
 <img src="./notebooks/infographics/flow.jpg" alt="InfiniteGraph Logo" width="1200" align=”center”>
 </p>
 
-## RTA Classification - EDA <a name="EDA"></a>
+## RTA Classification - EDA <a name="eda"></a>
 
 As we all know that the objective of Exploratory Data Analysis (EDA) is to gain insights and understanding from a dataset before applying any specific statistical or machine learning techniques. EDA involves examining and visualizing the data to uncover patterns, spot anomalies, and discover relationships between variables. It helps us to formulate hypotheses, identify data quality issues, and make informed decisions about the next steps in their analysis.
 

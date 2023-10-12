@@ -79,7 +79,7 @@ The code requires Python versions of 3.*, following libraries and packages used 
 * **shap**: A library that plays a crucial role in explaining machine learning models and interpreting their predictions, enhancing model transparency and understanding.
 
 ## Introduction <a name="introduction"></a>
-### Project Description <a name="discription"></a>
+### Project Description <a name="description"></a>
 
 This is Machine learning project focused on multiclass classification to predict the severity of road accidents. The objective is to classify accidents into three categories: minor, severe, and fatal. The dataset used for the project is based on real-world data and is highly imbalanced.
 

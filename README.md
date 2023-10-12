@@ -24,7 +24,8 @@
 5. [Project Directory Structure](#app)
 6. [Requirements](#requirements)
 7. [Usage](#usage)
-8. [Overview of Scripts](#scripts)
+8. [Explainable AI (XAI) with SHAP](#xai)
+9. [Overview of Scripts](#scripts)
 11. [License](#license)
 12. [Acknowledgements](#acknowledgements)
 13. [Contact Information](#contact)
@@ -392,6 +393,91 @@ By choosing either of these methods, you can meticulously assess the performance
 ```bash
 make setup
 ```
+
+## Explainable AI (XAI) with SHAP <a name="xai"></a>
+
+### Understanding Waterfall Plots with SHAP Values
+
+<p align="center"> 
+<img src="./notebooks/infographics/Figure_1.png" alt="InfiniteGraph Logo" width="520" align=”center”>
+</p>
+
+A waterfall plot is a valuable visualization tool used in conjunction with SHAP (SHapley Additive exPlanations) values to gain insights into the contribution of each feature to a model's prediction. This visualization helps users understand how each feature affects the output of a machine learning model for a specific observation.
+
+#### Key Insights from Waterfall Plots
+
+1. **Feature Contributions**: Waterfall plots display the contribution of each feature to the model's output for a specific observation. They show both the direction (positive or negative) and magnitude of each feature's effect.
+
+2. **Starting Point**: These plots begin at a baseline value, often representing the model's average prediction for all observations or a reference value. The baseline serves as the starting point, with contributions added or subtracted from it.
+
+3. **Steps in the Plot**: Each step in the waterfall plot represents a feature's contribution. The height of the step indicates the magnitude of the contribution, and the direction (left or right) indicates whether it increases or decreases the model's prediction.
+
+4. **Final Prediction**: The top of the waterfall plot represents the final prediction for the specific observation. It's the sum of all the feature contributions starting from the baseline.
+
+5. **Feature Importance**: Waterfall plots help identify which features have the most significant impact on the model's prediction for that observation. Features with large step heights have a substantial influence.
+
+Waterfall plots provide a powerful means of understanding the factors driving a particular prediction, how each feature contributes, and the overall impact on the model's output. This is especially valuable for model interpretability and debugging, as it offers insights into why the model made a specific prediction.
+
+### Visualizing Feature Importance with SHAP Bar Plot
+<p align="center"> 
+<img src="./notebooks/infographics/Figure_2_1.png" alt="InfiniteGraph Logo" width="520" align=”center”>
+</p>
+
+The `shap.plots.bar(shap_values)` function generates a bar plot that visualizes the importance of features in your machine learning model. This plot is a valuable tool for understanding which features have the most substantial impact on your model's predictions.
+
+#### Key Insights from SHAP Bar Plots
+
+- **Feature Importance**: The bar plot displays the importance of each feature by showing the absolute average magnitude of its SHAP values. Features with taller bars have a more significant impact on the model's predictions.
+
+- **Direction of Influence**: The direction of the bars (left or right) indicates whether a feature contributes positively or negatively to the model's predictions. Bars pointing to the right represent positive contributions, while bars pointing to the left represent negative contributions.
+
+- **Variance in SHAP Values**: The bar plot also reveals the variance in SHAP values for each feature. Features with wider bars have higher variability in their influence on predictions.
+
+By analyzing a SHAP bar plot, you can gain insights into the relative importance of different features, understand their direction of influence, and identify which features contribute most to your model's predictions. This information is crucial for feature selection, model interpretability, and understanding the driving factors behind your machine learning model.
+
+
+### Visualizing SHAP Values with Beeswarm Plots
+<p align="center"> 
+<img src="./notebooks/infographics/Figure_2.2.png" alt="InfiniteGraph Logo" width="520" align=”center”>
+</p>
+
+The example image above illustrates a SHAP beeswarm plot, showcasing the distribution and impact of SHAP values for multiple features.
+
+The `shap.plots.beeswarm(shap_values)` function generates a beeswarm plot that provides insights into the distribution and impact of SHAP (SHapley Additive exPlanations) values for each feature in your machine learning model. Beeswarm plots are particularly useful for visualizing how features influence individual predictions.
+
+#### Key Insights from SHAP Beeswarm Plots
+
+- **Distribution of SHAP Values**: Beeswarm plots show the distribution of SHAP values for each feature. Each point on the plot represents a specific observation, and the vertical position of the point indicates the SHAP value's magnitude for that feature.
+
+- **Feature Importance**: Features with points clustered further from the center tend to have a more significant impact on model predictions. This visual representation helps identify which features are consistently influential across various observations.
+
+- **Variability and Range**: The spread and range of points for each feature indicate the variability in their influence on different predictions. A wider distribution implies more variation in feature importance.
+
+- **Direction of Influence**: The direction of points (left or right) represents whether a feature contributes positively or negatively to model predictions.
+
+By analyzing a SHAP beeswarm plot, you can gain a deeper understanding of the distribution and impact of SHAP values for each feature. This is essential for understanding feature importance, model interpretability, and identifying the driving factors behind specific predictions.
+
+### Summarizing Feature Importance with SHAP Summary Bar Plot
+<p align="center"> 
+<img src="./notebooks/infographics/Figure_2.png" alt="InfiniteGraph Logo" width="520" align=”center”>
+</p>
+
+The example image above illustrates a SHAP summary bar plot, summarizing the feature importance of a machine learning model, with important features ranked at the top and their impact indicated by bar heights.
+
+#### Key Insights from SHAP Summary Bar Plots
+
+
+- **Feature Importance Ranking**: The summary bar plot ranks features based on their importance, with the most influential features placed at the top. This ranking is determined by the average magnitude of SHAP values.
+
+- **Direction of Influence**: The direction of each bar (left or right) indicates whether a feature contributes positively or negatively to model predictions. Right-facing bars represent positive contributions, while left-facing bars represent negative contributions.
+
+- **Impact on Model Predictions**: Bar heights reflect the absolute average magnitude of SHAP values for each feature. Taller bars signify a more significant impact on model predictions.
+
+- **Uncertainty and Variability**: The length of each bar showcases the variability in feature importance across different observations, providing insights into the uncertainty of the feature's impact.
+
+By examining a SHAP summary bar plot, you can quickly identify the most important features in your model, their direction of influence, and the extent of their impact on predictions. This information is invaluable for feature selection, model interpretation, and understanding the critical factors behind your machine learning model's performance.
+
+
 ## Accident Severity Prediction App <a name="app"></a>
 
 We've developed an interactive web application for predicting accident severity. This app allows users to input various parameters related to a road accident and receive predictions on the accident's severity. 

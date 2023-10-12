@@ -16,37 +16,36 @@
 1. [Introduction](#introduction)
    - [Project Description](#description)
    - [Project Motivation](#motivation)
-
 2. [Project Overview](#project_overview)
    - [Dataset Overview](#datasetoverview)
    - [Problem Statement](#problemstatement)
 
-3. [Features](#features)
+3. [Project Plan](#projetc_plan)
+4. [RTA Classification - EDA](#EDA)
+5. [Project Directory Structure](#directorystructure)
 
-4. [Project Directory Structure](#directorystructure)
-
-5. [Steps](#steps)
+6. [Steps](#steps)
    - [Data Collection and Preprocessing](#data-preprocessing)
    - [Calculating Word Counts and Likelihoods](#data-preprocessing)
    - [Train-Test Split and Model Training](#model-development)
    - [Running the App](#evaluation-and-metrics)
    - [Interact with the App](#evaluation-and-metrics)
 
-6. [Requirements](#requirements)
+7. [Requirements](#requirements)
 
-7. [Usage](#usage)
+8. [Usage](#usage)
 
-8. [Screenshots](#screenshots)
+9. [Screenshots](#screenshots)
 
-9. [EDA Notebook Structure](#eda)
+10. [EDA Notebook Structure](#eda)
    - [Running the Notebook](#exploratory-data-analysis1)
    - [Results and Visualizations](#exploratory-data-analysis2)
 
-10. [License](#license)
+11. [License](#license)
 
-11. [Acknowledgements](#acknowledgements)
+12. [Acknowledgements](#acknowledgements)
 
-12. [Contact Information](#contact)
+13. [Contact Information](#contact)
 
 
 ## Installation <a name="Installation"></a>
@@ -94,7 +93,7 @@ This data set is collected from _Addis Ababa_ Sub city police departments for Ma
    ### RTA Problem statement <a name="problemstatement"></a>
 The objective of this project is to classify the "Accident_severity" feature, which is a multi-class variable, based on the other 31 features available. We will follow a step-by-step approach to complete the data science process and tasks. The evaluation metric we will use to assess our model's performance is the "F1 score."
 
-## Project Plan <a name="datasetoverview"></a>
+## Project Plan <a name="projetc_plan"></a>
 
 In this project, we are addressing the challenge of working with an imbalanced dataset. Our objective is to explore various data preprocessing techniques to mitigate this issue. Some commonly employed techniques include **oversampling**, **undersampling**, **class weighting**, and **combining oversampling and undersampling**.
 
@@ -138,7 +137,7 @@ I have used Infographics which is a powerful tool to explain the EDA in a visual
 </p>
 
 
-## Project structure
+## Project structure <a name="directorystructure"></a>
 ```bash
 ├── data
 │   ├── final                      # Data after training the model

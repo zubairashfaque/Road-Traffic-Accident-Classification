@@ -398,6 +398,8 @@ By choosing either of these methods, you can meticulously assess the performance
 ```bash
 make setup
 ```
+## Overview of the SCRIPTS <a name="scripts"></a>
+
 ### Overview of the ***get_dataset.py*** Script
 ```bash
 python src/get_dataset.py
@@ -428,8 +430,6 @@ This script automates the process of downloading a dataset from Kaggle, managing
 11. **File Renaming:** In case "RTA Dataset.csv" is present in the data directory, the script renames it to "RTA_Dataset.csv" using the `shutil.move` function. It then reports that the renaming process has been completed.
 
 In essence, this script streamlines the process of dataset acquisition, organization, and file management tasks, enhancing efficiency when working with Kaggle datasets.
-
-## Overview of the SCRIPTS <a name="scripts"></a>
 
 ### Overview of the ***preprocessing.py*** Script
 ```bash

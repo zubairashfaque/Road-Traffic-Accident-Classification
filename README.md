@@ -793,6 +793,7 @@ In summary, the `train_and_evaluate_model.py` script is your conductor for a sym
 <p align="center"> 
 <img src="./notebooks/infographics/final.jpg" alt="InfiniteGraph Logo" width="520" align=”center”>
 </p>
+
 ## License <a name="license"></a>
 
 This project is licensed under the MIT License.

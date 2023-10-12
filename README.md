@@ -796,13 +796,13 @@ In summary, the `train_and_evaluate_model.py` script is your conductor for a sym
 
 ## License <a name="license"></a>
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute this project according to the terms of the license.
+
+For details, please review the [LICENSE](LICENSE) file.
+
 
 ## Acknowledgements <a name="acknowledgements"></a>
 
-- The sentiment analysis algorithm is based on the Deep Learning approach.
-- Streamlit is used for creating the user interface.
-- NLTK is used for text preprocessing.
 
 ## Contact Information <a name="contact-information"></a>
 
